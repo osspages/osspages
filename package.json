@@ -4,6 +4,8 @@
   "private": true,
   "description": "The platform to discover, showcase, and collaborate on open source projects",
   "scripts": {
+    "pre-commit": "lint-staged",
+    "prepare": "husky",
     "prettier:format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "syncpack:check": "pnpm syncpack:format-check && pnpm syncpack:lint && pnpm syncpack:update-check",
     "syncpack:fix": "syncpack fix",
@@ -16,6 +18,8 @@
     "syncpack:update-patch": "syncpack update --target patch"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
     "syncpack": "^14.0.0-alpha.18"
   },

@@ -1,0 +1,4 @@
+{
+  "(apps|packages)/**/*.{js,ts,jsx,tsx}": ["prettier --write"],
+  "*.json": ["prettier --write"]
+}
