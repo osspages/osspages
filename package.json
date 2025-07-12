@@ -4,6 +4,7 @@
   "private": true,
   "description": "The platform to discover, showcase, and collaborate on open source projects",
   "scripts": {
+    "prettier:format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "syncpack:check": "pnpm syncpack:format-check && pnpm syncpack:lint && pnpm syncpack:update-check",
     "syncpack:fix": "syncpack fix",
     "syncpack:format": "syncpack format",
@@ -15,6 +16,7 @@
     "syncpack:update-patch": "syncpack update --target patch"
   },
   "devDependencies": {
+    "prettier": "^3.6.2",
     "syncpack": "^14.0.0-alpha.18"
   },
   "packageManager": "pnpm@10.13.1"
