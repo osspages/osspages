@@ -1,0 +1,21 @@
+{
+  "name": "osspages",
+  "version": "0.0.1",
+  "private": true,
+  "description": "The platform to discover, showcase, and collaborate on open source projects",
+  "scripts": {
+    "syncpack:check": "pnpm syncpack:format-check && pnpm syncpack:lint && pnpm syncpack:update-check",
+    "syncpack:fix": "syncpack fix",
+    "syncpack:format": "syncpack format",
+    "syncpack:format-check": "syncpack format --check",
+    "syncpack:lint": "syncpack lint",
+    "syncpack:update-check": "syncpack update --check",
+    "syncpack:update-latest": "syncpack update --target latest",
+    "syncpack:update-minor": "syncpack update --target minor",
+    "syncpack:update-patch": "syncpack update --target patch"
+  },
+  "devDependencies": {
+    "syncpack": "^14.0.0-alpha.18"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
