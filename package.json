@@ -5,6 +5,10 @@
   "description": "The platform to discover, showcase, and collaborate on open source projects",
   "type": "module",
   "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
     "pre-commit": "lint-staged",
     "prepare": "husky",
     "prettier:format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -19,8 +23,10 @@
     "syncpack:update-patch": "syncpack update --target patch"
   },
   "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^24.0.13",
+    "eslint": "^9.31.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
