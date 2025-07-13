@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "turbo build",
+    "commitlint": "commitlint --edit",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
@@ -23,6 +24,8 @@
     "syncpack:update-patch": "syncpack update --target patch"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^24.0.13",
