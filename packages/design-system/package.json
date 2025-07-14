@@ -1,19 +1,16 @@
 {
-  "name": "web",
+  "name": "@repo/design-system",
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  "exports": {
+    "./globals.css": "./src/styles/globals.css",
+    "./components/*": "./src/components/*.tsx"
+  },
   "scripts": {
-    "build": "next build",
-    "check-types": "tsc --noEmit",
-    "dev": "next dev --turbopack",
-    "lint": "next lint --max-warnings 0 --report-unused-disable-directives-severity warn",
-    "lint:fix": "next lint --fix",
-    "start": "next start"
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@repo/design-system": "workspace:*",
-    "next": "^15.3.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
