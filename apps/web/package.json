@@ -6,6 +6,7 @@
   "scripts": {
     "build": "next build",
     "check-types": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules",
     "dev": "next dev --turbopack",
     "lint": "next lint --max-warnings 0 --report-unused-disable-directives-severity warn",
     "lint:fix": "next lint --fix",

@@ -8,6 +8,9 @@
     "./next": "./next.js",
     "./react": "./react.js"
   },
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules"
+  },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
     "@next/eslint-plugin-next": "^15.3.5",
