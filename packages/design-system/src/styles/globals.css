@@ -1,3 +1,6 @@
+@import "tailwindcss";
+@source "../**/*.{ts,tsx}";
+
 :root {
   --background: #000000;
   --foreground: #dadade;
