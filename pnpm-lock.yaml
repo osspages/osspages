@@ -84,6 +84,9 @@ importers:
 
   packages/design-system:
     dependencies:
+      next:
+        specifier: ^15.3.5
+        version: 15.3.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: ^19.1.0
         version: 19.1.0
