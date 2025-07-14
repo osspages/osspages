@@ -1,0 +1,12 @@
+{
+  "extends": "@repo/typescript-config/reactjs.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@repo/design-system/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules"]
+}
