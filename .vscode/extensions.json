@@ -1,6 +1,7 @@
 {
   "recommendations": [
-    "esbenp.prettier-vscode", // prettier plugin
-    "dbaeumer.vscode-eslint" // eslint plugin
+    "esbenp.prettier-vscode", // prettier
+    "dbaeumer.vscode-eslint", // eslint
+    "bradlc.vscode-tailwindcss" // tailwindcss
   ]
 }
