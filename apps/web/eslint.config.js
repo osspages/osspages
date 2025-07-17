@@ -7,8 +7,11 @@ export default [
   {
     languageOptions: {
       parserOptions: {
-        project: "./tsconfig.json",
-        tsconfigRootDir: new URL(".", import.meta.url).pathname,
+        projectService: {
+          allowDefaultProject: ["*.{js,cjs,mjs,ts}"],
+          defaultProject: "./tsconfig.json",
+        },
+        tsconfigRootDir: import.meta.dirname,
       },
     },
   },
