@@ -1,4 +1,4 @@
-[![OSSPAGES](./osspages-repo-banner.svg)](https://osspages.com)
+[![OSSPAGES](./github.svg)](https://osspages.com)
 
 # oss::pages
 
