@@ -34,7 +34,7 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --filter=web... --frozen-lockfile --ignore-scripts
+        run: pnpm install --filter=@osspages/web... --frozen-lockfile --ignore-scripts
 
       - name: Install vercel cli
         run: pnpm add -g vercel

@@ -1,5 +1,5 @@
 {
-  "name": "@repo/design-system",
+  "name": "@osspages/design-system",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -13,8 +13,8 @@
     "clean": "rm -rf .turbo node_modules"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@osspages/eslint-config": "workspace:*",
+    "@osspages/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/node": "^24.0.13",
     "@types/react": "^19.1.8",

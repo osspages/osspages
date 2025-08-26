@@ -1,1 +1,1 @@
-export { default } from "@repo/design-system/postcss.config";
+export { default } from "@osspages/design-system/postcss.config";

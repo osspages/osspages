@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@osspages/web",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -13,15 +13,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "@repo/design-system": "workspace:*",
-    "@repo/security": "workspace:*",
+    "@osspages/design-system": "workspace:*",
+    "@osspages/security": "workspace:*",
     "next": "^15.3.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@osspages/eslint-config": "workspace:*",
+    "@osspages/typescript-config": "workspace:*",
     "@types/node": "^24.0.13",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",

@@ -17,10 +17,10 @@ importers:
       '@commitlint/types':
         specifier: ^19.8.1
         version: 19.8.1
-      '@repo/eslint-config':
+      '@osspages/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
-      '@repo/typescript-config':
+      '@osspages/typescript-config':
         specifier: workspace:*
         version: link:packages/typescript-config
       '@types/node':
@@ -50,10 +50,10 @@ importers:
 
   apps/web:
     dependencies:
-      '@repo/design-system':
+      '@osspages/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
-      '@repo/security':
+      '@osspages/security':
         specifier: workspace:*
         version: link:../../packages/security
       next:
@@ -66,10 +66,10 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
-      '@repo/eslint-config':
+      '@osspages/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@repo/typescript-config':
+      '@osspages/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':
@@ -100,10 +100,10 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
-      '@repo/eslint-config':
+      '@osspages/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@repo/typescript-config':
+      '@osspages/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@tailwindcss/postcss':
@@ -173,7 +173,7 @@ importers:
         specifier: 1.0.0-beta.9
         version: 1.0.0-beta.9(next@15.3.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
     devDependencies:
-      '@repo/typescript-config':
+      '@osspages/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       typescript:

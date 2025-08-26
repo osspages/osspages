@@ -123,7 +123,7 @@
     {
       "label": "External packages should use caret range",
       "dependencies": ["*"],
-      "packages": ["!@repo/*"],
+      "packages": ["!@osspages/*"],
       "range": "^"
     }
   ]
